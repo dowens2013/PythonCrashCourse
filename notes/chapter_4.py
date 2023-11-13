@@ -39,3 +39,22 @@ print(sum(number))
 
 squares = [value**2 for value in range(1,11)]
 print(squares)
+
+# slicing a list
+
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+print(days[0:3])
+print(days[:2])
+
+for day in days[:3]:
+    print(day)
+
+# copy a list
+
+copy_of_days = days[:]
+print(copy_of_days)
+
+days.append("Friday")
+print(days)
+copy_of_days.append("Saturday")
+print(copy_of_days)
