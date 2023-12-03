@@ -58,3 +58,14 @@ days.append("Friday")
 print(days)
 copy_of_days.append("Saturday")
 print(copy_of_days)
+
+# tuples
+dimensions = (range(6))
+for item in dimensions:
+    print(item)
+
+print("new dimensions:")
+
+dimensions = (range(6,13))
+for item in dimensions:
+    print(item)
