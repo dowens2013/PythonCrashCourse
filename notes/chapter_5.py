@@ -59,3 +59,5 @@ if 'Nicole' not in banned_people:
 else:
     print('\nBanned')
 
+
+
