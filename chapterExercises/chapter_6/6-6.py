@@ -23,9 +23,8 @@ for x in favorite_languages.keys():
 
     if x in people:
         language = favorite_languages[x].title()
-        print(f'{x.title()} thank you for taking the survey. Good to see that {language}')
+        print(f'{x.title()} thank you for taking the survey. Good to see that {language} is your favorite language\n')
 
-    if 'shanna' not in favorite_languages.keys():
-        print('Shanna, please take survey')
+
 
 
