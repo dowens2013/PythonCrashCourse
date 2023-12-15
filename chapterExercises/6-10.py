@@ -7,7 +7,13 @@ favorite_numbers = {
 }
 
 for name, number in favorite_numbers.items():
+  if len(number) <= 1:
     print(f"{name}'s favorite number is: ")
 
     for x in number:
         print(f"\t{x}")
+  else:
+      print(f"{name}'s favorite numbers are: ")
+
+      for x in number:
+          print(f"\t{x}")
