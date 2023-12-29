@@ -11,12 +11,3 @@ class Restaurant:
 
     def open_restaurant(self):
         print(f"{self.restaurant_name.title()} is open!")
-
-
-restaurant = Restaurant(restaurant_name="david's shack", cuisine_type='american')
-
-print(f"Name: {restaurant.restaurant_name}"
-      f"\nCuisine: {restaurant.cuisine_type}")
-
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
