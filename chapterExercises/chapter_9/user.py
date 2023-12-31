@@ -7,7 +7,13 @@ class User:
         self.date_of_birth = date_of_birth
         self.location = location.title()
         self.login_attempts = 0
+        self.admin = False
+
+    def assign_admin(self):
         self.admin = True
+
+    def remove_admin(self):
+        self.admin = False
 
     def describe_user(self):
         print(f"User details:"
