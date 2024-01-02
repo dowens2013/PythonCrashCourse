@@ -12,6 +12,7 @@ guests = []
 
 # Add guests to the guest list
 while active:
+
     # Get the guest information
     name = input("What is your name? ")
     guests.append(name)
@@ -26,6 +27,5 @@ with path.open('w') as file:
     for x in guests:
         file.write(x + '\n')
 
-print(path.read_text())
-
-
+print(path.read_text().rstrip())
+print(len(guests))
