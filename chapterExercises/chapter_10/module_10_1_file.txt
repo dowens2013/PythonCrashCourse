@@ -1,0 +1,3 @@
+In Python you can write conditional statements
+In Python you can do boolean operations
+In Python you can use classes and methods
