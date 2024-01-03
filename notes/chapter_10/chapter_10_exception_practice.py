@@ -3,9 +3,14 @@
 from pathlib import Path
 from word_count import count_words
 
-path = Path('alice.txt')
+file_names = ['alice.txt', 'moby_dicdk.txt', 'little_women.txt']
 
-count_words(path)
+for x in file_names:
+    path = Path(x)
+    count_words(path)
+
+
+
 
 
 
