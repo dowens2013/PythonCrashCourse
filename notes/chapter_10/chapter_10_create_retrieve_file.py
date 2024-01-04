@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-path = Path('username.json')
+path = Path('username_2.json')
 if path.exists():
     contents = path.read_text()
     username = json.loads(contents)
