@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988237fc-ec89-42eb-9fb4-3c36c496c78e" name="Changes" comment="" />
+    <list default="true" id="988237fc-ec89-42eb-9fb4-3c36c496c78e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pizza_project_app/templates/pizza_project_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza_project_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza_project_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_project_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pizza_project_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_project_app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -18,12 +34,16 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2b6W2KJTlHzqTMZRmUYmPWOOu57" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;

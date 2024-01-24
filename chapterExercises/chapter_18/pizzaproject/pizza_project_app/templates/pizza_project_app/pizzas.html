@@ -1,0 +1,13 @@
+{% extends 'pizza_project_app/base.html' %}
+{% block content %}
+<p>Pizzas</p>
+<ul>
+    {% for p in pizzas %}
+    <li>
+        <a href="{% url 'pizza_project_app:pizza' p.id %}">{{ p.text }}</a>
+    </li>
+    {% empty %}
+    <li>No pizzas have been added yet.</li>
+    {% endfor %}
+</ul>
+{% endblock content %}
